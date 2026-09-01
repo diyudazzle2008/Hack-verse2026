@@ -21,11 +21,11 @@ First, we uninstall the old package and install the new one. Then, we'll configu
 # Ensure google-generativeai is installed (it provides GenerativeMo
 
 import google.generativeai as genai
-from streamlit as at
+import streamlit as st
 
 # Configure the API key using Colab secrets
 GOOGLE_API_KEY = st.get('GOOGLE_API_KEY')
-genai.configure(api_key=GOOGLE_API_KEY)
+genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
 
 # Initialize the model using the new package and the 'gemini-3.6-flash' model
 model = genai.GenerativeModel("gemini-3.6-flash")
