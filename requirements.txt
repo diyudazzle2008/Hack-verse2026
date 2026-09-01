@@ -1,4 +1,3 @@
-Code
 
 streamlit
 google-generativeai
