@@ -1,0 +1,5 @@
+Code
+
+streamlit
+google-generativeai
+chromadb
