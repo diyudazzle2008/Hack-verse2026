@@ -43,7 +43,6 @@ Original file is located at
     https://colab.research.google.com/drive/1KsFrvbMvJ999kCLU-wHor3vVUYC1WKcZ
 """
 
-!pip install chromadb -q --upgrade
 
 reliance_text = """Reliance Industries reported consolidated revenue of ₹2,45,000 crore for Q2 FY26, up 8.2% year-on-year, driven primarily by growth in the retail and digital services segments. EBITDA margin improved to 17.3%..."""
 
