@@ -18,8 +18,7 @@ First, we uninstall the old package and install the new one. Then, we'll configu
 **Note**: If you haven't already, please store your Google API Key in Colab's Secrets Manager (click the 🔑 icon in the left panel) under the name `GOOGLE_API_KEY`.
 """
 
-# Ensure google-generativeai is installed (it provides GenerativeModel)
-pip install google-generativeai -q
+# Ensure google-generativeai is installed (it provides GenerativeMo
 
 import google.generativeai as genai
 from google.colab import userdata
