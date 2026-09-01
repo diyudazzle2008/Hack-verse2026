@@ -24,8 +24,8 @@ import google.generativeai as genai
 import streamlit as st
 
 # Configure the API key using Colab secrets
-GOOGLE_API_KEY = st.get('GOOGLE_API_KEY')
-genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
+GOOGLE_API_KEY = st.secrets['GOOGLE_API_KEY']
+genai.configure(api_key=GOOGLE_API_KEY)
 
 # Initialize the model using the new package and the 'gemini-3.6-flash' model
 model = genai.GenerativeModel("gemini-3.6-flash")
