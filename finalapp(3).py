@@ -200,7 +200,6 @@ Original file is located at
 """
 
 import os
-!pip install groq
 
 from groq import Groq
 
